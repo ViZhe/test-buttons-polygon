@@ -1,0 +1,94 @@
+
+.row {
+  margin: 16px;
+}
+
+.row > .button,
+.row > .counter {
+  margin: 8px 16px;
+  margin: 8px 16px;
+}
+
+.counter {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5rem 1rem;
+  font-family: "San Francisco Text", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.8px;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: bottom;
+  cursor: pointer;
+  user-select: none;
+  border: 0;
+  border-radius: 4px;
+  transition: all .2s;
+
+}
+
+.button_type_primary {
+  background-color: #00a8ff;
+}
+
+.button_type_secondary {
+  border: 1px solid #00a8ff;
+  background-color: #fff;
+  color: #00a8ff;
+}
+
+.button_type_green {
+  background-color: #52c41a;
+}
+
+
+.button_size_medium {
+  width: 176px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: -0.7px;
+}
+
+.button_size_large {
+  width: 176px;
+  height: 40px;
+}
+
+.button_size_mlarge {
+  width: 272px;
+  height: 40px;
+}
+
+.button_size_xlarge {
+  width: 368px;
+  height: 40px;
+}
+
+
+.button__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  background-size: contain;
+}
+
+.button__icon_plus {
+  background-image: url(./media/icon-plus.svg);
+}
+
+
+.button_disabled {
+  color: rgba(0, 0, 0, 0.25);
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  background-color: rgba(0, 0, 0, 0.04);
+}
